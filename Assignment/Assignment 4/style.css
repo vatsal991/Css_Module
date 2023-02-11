@@ -1,0 +1,256 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.MainNavContainer{
+  height: auto;
+  width: 100vw;
+  background-color: #efeff1;
+  border: 2px solid #d4d4d6;
+}
+.Navbar{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.C1{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.C1 p{
+  margin-left: 10px;
+}
+
+.C1 img{
+  height: 70%;
+  transform: scaleX(-1);
+  height: 20px;
+}
+
+.LogoContainer{
+  width:65%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.LogoContainer img{
+  height: 130px;
+}
+
+.LogoContainer p{
+  font-size: 45px;
+  font-weight: 1000;
+  color: #707070;
+  line-height: 0;
+}
+
+.TabsContainer{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TabsContainer p{
+  font-size: large;
+  font-weight: 500;
+}
+
+.TabsContainer p:last-child{
+  background-color: #fd8a00;
+  padding: 15px;
+  color: white;
+}
+
+.SectionCont1{
+  width: 100vw;
+  border-top: 2px solid rgb(209, 209, 209);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  background-color: #efeff1;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.C2{
+  width: 65%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+
+.HeadingCont{
+  width: 50%;
+  color: #5b5b5d;
+}
+
+.HeadingCont p:first-child{
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.HeadingCont p:nth-child(2){
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.HeadingCont p:nth-child(3){
+  margin-top: 50px;
+}
+
+.HeadingCont button{
+  margin-top: 30px;
+  padding: 5px 30px;
+  font-size: xx-large;
+  font-weight: 600;
+  color: white;
+  background-color: #fd8a00;
+  border-radius: 20px;
+  border: none;
+}
+.FormCont{
+  width: 50%;font-size: 30px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.FormCont form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.FormCont input{
+  width: calc(50% - 40px);
+  margin-top: 25px;
+  padding: 15px;
+  border: thin solid grey;
+  border-radius: 10px;
+}
+
+.FormCont input::placeholder{
+  font-size: large;
+  color: grey;
+}
+
+.FormCont textarea{
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.FormCont textarea::placeholder{
+  padding: 10px;
+  font-size: x-large;
+}
+
+.SubmitButton{
+  width: 100% !important;
+  background-color: #fd8a00;
+  color: white;
+  font-size: xx-large;
+  font-weight: 500;
+  border: none !important;
+  padding: 5px !important;
+}
+
+.SectionCont2{
+  width: 100%;
+  height: auto;
+  background-color: #209bde;
+  margin-top: 5px;
+  padding: 30px 0;
+}
+
+.C3{
+  width: 65%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.C3 p:first-child{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 0;
+  color: white;
+}
+
+.C3 p:nth-child(2){
+  font-size: large;
+  color: white;
+}
+
+.C3 div:first-child{
+  width: 65%;
+}
+
+.C3 button{
+  width:20%;
+  padding: 30px;
+  font-size: x-large;
+  line-height: 0;
+  color: #209bde;
+  font-weight: bold;
+  border: none;
+}
+
+
+.SectionCont3{
+  width: 100%;
+  height: auto;
+  background-color: #efeff1;
+  padding: 30px 0;
+  border-top: 2px solid rgb(209, 209, 209);
+  border-bottom: 2px solid rgb(209, 209, 209);
+
+}
+
+
+.C4{
+  width: 65%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.C4 img{
+  width: 60%;
+}
+
+.SectionCont3 .HeadingCont{
+  width: 35%;
+}
+
+.C4 button{
+ border-radius: 0 !important; 
+ padding: 10px 30px;
+}
+
+.SectionCont4{
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+}
+
+.C5{
+  
+}
