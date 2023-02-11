@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.Header{
+  width: 95vw;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ImageContainer{
+  width: 95vw;
+  margin: auto;
+  border: thin solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 4px;
+  gap: 10px;
+
+}
+.column{
+  flex: 100%;
+  max-width: 100%;
+}
+img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media only screen and (min-width:768px){
+  .column{
+    flex: 49%;
+    max-width: 49%;
+  }
+}
+
+@media only screen and (min-width:1025px){
+  .column{
+    flex: 24%;
+    max-width: 24%;
+  }
+}
